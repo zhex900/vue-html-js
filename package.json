@@ -96,5 +96,5 @@
     "build": "uglifyjs vue-html-js.js -c -m > vue-html-js.min.js",
     "dev": "webpack --watch example/example.js example/example.build.js"
   },
-  "version": "1.1.2"
+  "version": "0.0.1"
 }
