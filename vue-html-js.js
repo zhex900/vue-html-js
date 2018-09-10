@@ -117,7 +117,7 @@
   vueAppend.config = {};
 
   vueAppend.install = function (Vue) {
-    Vue.directive('append', {
+    Vue.directive('html-js', {
       inserted: function (el, data) {
         exec(el, data.value.html, data.value.script);
       },
